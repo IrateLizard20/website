@@ -1,0 +1,19 @@
+body{
+    font-size: 10VH;
+    font-family: 'ONE Font';
+}
+.logo{
+    height: 20vh;
+    width: auto;
+}
+.container{
+    margin: 10vh 10vw;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	padding: 10px;
+}
+@font-face{
+    font-family: ONE Font; src: url('./font/AmaticSC-Regular.ttf');
+}

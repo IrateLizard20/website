@@ -1,0 +1,7 @@
+body{
+    background-color: #000000;
+}
+canvas{
+    margin: 50;
+    scale: 50%;
+}

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>forgery</title>
+        <link rel="stylesheet" href="./styles5.css">
+    </head>
+    <body>
+        <img src="./test.png"
+        <input type="file" id="files" multiple="multiple">
+        <output ID="result">
+            <script>
+                document.querySelector("#files").addEventListener("change", (e) => {
+                    const files = e.target.files;
+                    const output = document.querySelector("#result");
+    
+                    for(let i = 0;i <files.length;i++){
+                        const picReader = new FileReader();
+                        picReader.addEventListener("load", function(event){
+                            const picFile = event.target;
+                            const div = document.createElement("div");
+                            div.innerHTML = `<img class="thumbnail" src="${picFile.result}" title="${picFile.name}"/>`;
+                            output.appendChild(div);
+                        })
+                        picReader.readAsDataURL(files[i]);
+                    }
+    
+                })
+            </script>
+        <!--
+        <script>
+            document.querySelector("#files").addEventListener("change", (e) => {
+                const files = e.target.files;
+                const output = document.querySelector("#result");
+
+                for(let i = 0;i <files.length;i++){
+                    const picReader = new FileReader();
+                    picReader.addEventListener("load", function(event){
+                        const picFile = event.target;
+                        const div = document.createElement("div");
+                        div.innerHTML = `<img class="thumbnail" src="${picFile.result}" title="${picFile.name}"/>`;
+                        output.appendChild(div);
+                    })
+                    picReader.readAsDataURL(files[i]);
+                }
+
+            })
+        </script>
+        -->
+    </body>
+</html>

@@ -1,0 +1,40 @@
+html, body{
+	height: 100%;
+}
+body{
+	position: relative;
+	font-size: 25;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Georgia, serif;
+	border-width: 100 200 100 200;
+	border-style: solid;
+	border-color: #000000;
+	margin: 0px;
+	background-image: url("./constant/background.png");
+}
+img{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: auto;
+}
+h1{
+	margin:50px;
+	font-size: 40;
+}
+ul{
+	position: absolute;
+	left: 50px;
+	bottom: 0px;
+	font-size: 35;
+}
+a:link{
+	text-decoration: none;
+	color: #000000;
+}
+a:visited{
+	text-decoration: none;
+	color: #000000;
+}

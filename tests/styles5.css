@@ -1,0 +1,7 @@
+#result{
+    display: flex;
+    gap: 10px;
+}
+.thumbnail{
+    height: 150px;
+}

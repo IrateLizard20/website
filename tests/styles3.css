@@ -1,0 +1,17 @@
+.center1{
+    display: flex;
+    justify-content: center;
+}
+.center1 div{
+    height: 25vh;
+    width: auto;
+}
+.center2{
+    background-color: black;
+}
+canvas{
+    margin: 5%;
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}

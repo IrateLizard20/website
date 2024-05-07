@@ -1,0 +1,32 @@
+body{
+	font-size: 25;
+	background-color: #000000;
+	font-family: 'Courier New', monospace;
+	margin: 50px;
+	color: #006432;
+}
+h1{
+	font-size:30;
+	small{
+		font-size:20;
+	}
+}
+img{
+	width: 200px;
+}
+#gallery{
+	border-width: 2px;
+	border-color: #006432;
+	border-style: solid;
+	text-align: left;
+	padding: 10px;
+	a:link{
+	color: transparent;
+	}
+}
+a:link{
+	color: #006432;
+}
+a:visited{
+	color: #006432;
+}
