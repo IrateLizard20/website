@@ -10,7 +10,7 @@ body{
     border-color: black;
     border-style: solid;
 }
-p{
+a{
     font-size: 150%;
     mark{
         background-color: transparent;
