@@ -5,12 +5,14 @@ body{
 }
 .container{
     text-align: center;
-    padding: 10px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
 }
-a{
+.resize{
+    margin: 10px;
+}
+p{
     font-size: 150%;
     mark{
         background-color: transparent;
