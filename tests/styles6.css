@@ -1,0 +1,21 @@
+body{
+    margin: 50px;
+    font-family: 'ONE Font';
+    font-size: 6vh;
+}
+.container{
+    text-align: center;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.container a{
+    background-color: yellow;
+}
+p{
+    font-size: 150%;
+}
+@font-face{
+    font-family: ONE Font; src: url('./font/AmaticSC-Regular.ttf');
+}
