@@ -1,6 +1,16 @@
+html,body{
+    cursor: help;
+}
 body{
-    font-size: 6vh;
+    font-size: 6vw;
     font-family: 'ONE Font';
+}
+h1{
+    font-weight: normal;
+    text-underline-offset: 1vw;
+    text-decoration: underline;
+    text-decoration-style:double;
+    text-decoration-thickness: 2px;
 }
 .container{
     margin: 10vh 10vw;
