@@ -1,16 +1,14 @@
 body{
-    margin: 50px;
-    font-family: 'ONE Font';
     font-size: 6vh;
+    font-family: 'ONE Font';
 }
 .container{
-    text-align: center;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
-.resize{
-    margin: 10px;
+    margin: 10vh 10vw;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+	padding: 10px;
 }
 p{
     font-size: 150%;
