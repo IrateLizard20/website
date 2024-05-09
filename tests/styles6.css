@@ -10,11 +10,20 @@ body{
     border-color: black;
     border-style: solid;
 }
-.container a{
-    background-color: yellow;
-}
 p{
     font-size: 150%;
+    mark{
+        background-color: transparent;
+    }
+    #yellow{
+        background-color: #ffd97f;
+    }
+    #blue{
+        background-color: #7f7fb2;
+    }
+    #red{
+        background-color: #ff7f7f;
+    }
 }
 @font-face{
     font-family: ONE Font; src: url('./font/AmaticSC-Regular.ttf');
