@@ -1,0 +1,26 @@
+#height{
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 270px;
+    margin: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: calc(5px + 500px - 135px - 10px - 30px);
+    top: 400px;
+}
+#height::-webkit-slider-runnable-track{
+    background-color: black;
+    height: 4px;
+    border-radius: 2px;
+}
+#height::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 10px;
+    background-color: red;
+    margin-top: -8px;
+    border-radius: 5px;
+}

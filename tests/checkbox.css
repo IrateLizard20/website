@@ -1,0 +1,78 @@
+label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+label:hover input ~ .checkmark{
+    background-color: #808080;
+}
+
+/*----------------------------------*/
+
+label input:checked ~ .red{
+    background-color: red;
+}
+label input:checked ~ .yellow{
+    background-color: yellow;
+}
+label input:checked ~ .blue{
+    background-color: blue;
+}
+.red{
+    border: 3px red solid;
+}
+.yellow{
+    border: 3px yellow solid;
+}
+.blue{
+    border: 3px blue solid;
+}
+
+/*----------------------------------*/
+
+#c1{
+    top: 350px;
+    left: 15px;
+}
+#c2{
+    top: 350px;
+    left: 55px;
+}
+
+#c3{
+    top: 350px;
+    left: 95px;
+}
+
+#c4{
+    top: 390px;
+    left: 15px;
+}
+#c5{
+    top: 390px;
+    left: 55px;
+}
+#c6{
+    top: 390px;
+    left: 95px;
+}

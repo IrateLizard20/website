@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(./font/Comic-Sans-MS.ttf);
+}
+body{
+    font-family: "Comic Sans";
+    font-size: 5vh;
+    background-color: black;
+    color: white;
+    margin: 50;
+}
+.parent{
+    position: relative;
+    margin: 0px;
+}
+.interactables{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.overlay{
+    position: relative;
+    border: 5px green solid;
+}
