@@ -76,3 +76,42 @@ label input:checked ~ .blue{
     top: 390px;
     left: 95px;
 }
+
+#c7{
+    top: 430px;
+    left: 15px;
+}
+#c8{
+    top: 430px;
+    left: 55px;
+}
+#c9{
+    top: 430px;
+    left: 95px;
+}
+
+#c10{
+    top: 470px;
+    left: 15px;
+}
+#c11{
+    top: 470px;
+    left: 55px;
+}
+#c12{
+    top: 470px;
+    left: 95px;
+}
+
+#c13{
+    top: 510px;
+    left: 15px;
+}
+#c14{
+    top: 510px;
+    left: 55px;
+}
+#c15{
+    top: 510px;
+    left: 95px;
+}
