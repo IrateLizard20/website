@@ -1,0 +1,52 @@
+body{
+    font-family: "Comic Sans";
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.grid{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    color: white;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 20px 0em;
+}
+label input{
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+label:hover input ~ .checkmark{
+    background-color: #808080;
+}
+label input:checked ~ .checkmark{
+    background-color: white;
+}
