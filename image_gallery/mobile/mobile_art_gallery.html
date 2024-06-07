@@ -2,12 +2,19 @@
 	<head>
 		<title>Mobile Art Gallery</title>
 		<link rel="stylesheet" href="/website/image_gallery/styles.css">
+		<script>
+			function Back(){
+    			window.open("/website/image_gallery/art_gallery.html","_self")
+			}
+		</script>
 	</head>
 	<body>
 		<h1>Mobile Art Gallery</h1>
+		<div class="hold"><label><input type="button" class="hide"><span class="button" onclick="Back()">Back</span></label></div>
 		<ul>
 			<li><a href="./old/old.html">old</a></li>
 			<li><a href="./everything_else/everything_else.html">everything else</a></li>
+			<li><a href="./other/other.html">misc</a></li>
 		</ul>
 	</body>
 </html>

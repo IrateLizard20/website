@@ -7,6 +7,11 @@ a{
     text-decoration: none;
     color: blue;
 }
+.back{
+    text-align: center;
+    font-size: 200%;
+    margin: 50px;
+}
 ul{
     /* border: 2px red solid;
     border-radius: 50%; */
