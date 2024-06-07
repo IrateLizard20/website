@@ -13,6 +13,7 @@ h1{
 }
 img{
 	height: 200px;
+	width: auto;
 }
 #gallery{
 	border-width: 2px;
