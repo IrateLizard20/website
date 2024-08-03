@@ -2,6 +2,33 @@ body{
     background-color: black;
     margin: 0;
     user-select: none;
+    font-size: 2vh;
+    font-family: 'Fan';
+}
+label{
+    background-color: black;
+    font-size: 3vh;
+    padding: 1vh;
+    border: 5px white solid;
+    color: white;
+}
+label:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    display: none;
+}
+.back{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    z-index: 999;
 }
 .body{
     position: absolute;
@@ -38,8 +65,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2vh;
-    font-family: 'Fan';
+    
 }
 @font-face {
     font-family: "Fan";
