@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(135deg, #100020, #000010);
+    font-family: 'New';
+}
+.body{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    top: 10px;
+    border: 5px white solid;
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1vh;
+    padding: 1vh;
+    border-radius: 2vh;
+}
+
+img{
+    background-color: white;
+    height: 10vh;
+    width: auto;
+    border-radius: 1vh;
+    border: white solid 5px;
+}
+#click{
+    cursor: pointer;
+}
+
+label{
+    background-color: transparent;
+    font-size: 3vh;
+    padding: 1vh;
+    border: 5px white solid;
+    color: white;
+    border-radius: 1vh;
+}
+label:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    display: none;
+}
+.back{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    z-index: 999;
+}
+@font-face {
+    font-family: "New";
+    src: url(/website/fan_art_dump/Serlby.ttf);
+}
