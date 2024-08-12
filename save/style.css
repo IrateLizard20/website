@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'font';
+    font-size: 25px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    gap: 15px;
+}
+#photo{
+    background-color: white;
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    max-width: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 15px;
+}
+li{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+}
+label{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px white solid;
+    margin: 0px;
+}
+label:hover{
+    background-color: transparent;
+    color: white;
+}
+button{
+    display: none;
+}
+@font-face {
+    font-family: 'font';
+    src: url(AmaticSC-Regular.ttf);
+}

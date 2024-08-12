@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        set size save
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include from the CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+
+    <!-- Include locally otherwise -->
+    <!-- <script src='html2canvas.js'></script> -->
+</head>
+<body>
+<div class="container">
+    <div id="photo">
+        <h1>Inner-Anguish</h1>
+        <ul>
+            <li>
+                The state is achieved when an object is too focused on one target/goal. If an object gets too one-tracked and stuck in their mind, and has the ability to, they will enter this state.
+            </li>
+            <li>
+                Exists to balance the Inner-Flame.
+            </li>
+            <li>
+                It boosts strength, similar to the inner flame, but rarely helps the object and instead often causes them to hurt others. The object’s movement speed is greatly decreased.
+            </li>
+            <li>
+                Any object in this state has an impaired ability to think and causes them to focus even more on what caused them to enter the state, which also makes it difficult for them to get back out.
+            </li>
+            <li>
+                Allows the object to walk around underwater without needing to breathe.
+            </li>
+        </ul>
+    </div>
+    <!-- Define the button 
+        that will be used to 
+        take the screenshot -->
+        <label>Create Image
+            <button onclick="takeshot()"></button>
+        </label>
+    <div id="output"></div>
+</div>
+
+    <script type="text/javascript">
+
+        // Define the function 
+        // to screenshot the div
+        function takeshot() {
+            let div =
+                document.getElementById('photo');
+
+            // Use the html2canvas
+            // function to take a screenshot
+            // and append it
+            // to the output div
+            html2canvas(div).then(
+                function (canvas) {
+                    document
+                    .getElementById('output')
+                    .appendChild(canvas);
+                })
+        }
+    </script>
+</body>
+
+</html>
