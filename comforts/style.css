@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'comforts';
+    src: url(Helvetica.ttf);
+}
+body{
+    font-family: 'comforts';
+    font-size: 20px;
+    margin: 20px;
+    color: #404040;
+    background-color: #f0f0f0;
+}
+span{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    margin-block: 5px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: #404040 1px solid;
+}
+p{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: lighter;
+}
+a:visited{
+    color: blue;
+}
