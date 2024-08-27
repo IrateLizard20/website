@@ -9,7 +9,7 @@ body{
     color: #404040;
     background-color: #f0f0f0;
 }
-div{
+.container{
     width: fit-content;
 }
 span{
@@ -28,10 +28,8 @@ img{
     border-radius: 10px;
     border: #404040 2px solid;
 }
-p{
-    font-size: 35px;
-}
 a{
+    font-size: 35px;
     text-decoration: none;
     color: blue;
     font-weight: lighter;
@@ -47,4 +45,10 @@ a:visited{
 }
 ul{
     margin-inline-end: 100px;
+}
+.buttons{
+    padding-block: 20px;
+}
+.right{
+    float: right;
 }
